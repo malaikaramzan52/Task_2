@@ -6,8 +6,60 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <!-- header -->
+<header class="bg-gray-800 text-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-center md:text-left">
+      CarRent<span class="text-red-500"> X</span>
+    </div>
+
+    <!-- Navigation (Responsive Stack to Row) -->
+    <nav class="flex flex-col items-center gap-2 md:flex-row md:gap-8 text-lg">
+      <a href="#" class="hover:text-red-400 transition">Rent a Car</a>
+      <a href="#" class="hover:text-red-400 transition">Host a Car</a>
+      <a href="#" class="hover:text-red-400 transition">Contact Us</a>
+    </nav>
+
+    <!-- Button -->
+    <div class="flex justify-center md:justify-end">
+      <button class="bg-white text-gray-800 px-6 py-2 rounded-md font-semibold border-2 hover:scale-105 hover:border-white transition-transform duration-500">
+        Sign In
+      </button>
+    </div>
+
+  </div>
+</header>
+<!-- Hero section -->
+<section class="bg-gray-700 text-white py-10">
+   <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-16">
+      <div class="md:w-1/2 space-y-5">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+        Easy and  Affordable<br class="hidden md:block" />
+        Car Rentals
+      </h1>
+      <p class="text-lg text-blue-100">
+        Seamlessly connect vehicle owners with renters, making car rentals simple and stress-free.
+      </p>
+      
+      <button class="mt-6 bg-red-500 text-white  border border-red-600 px-6 py-3 rounded-md font-semibold hover:bg-red-600 transition duration-300">
+       Find a Car
+       </button>
+       
+       <button class=" ml-4 mt-6 bg-transparent text-white  px-6 py-3 rounded-md font-semibold hover:bg-white hover:text-black transition duration-300">
+       List a Car
+       </button>
+
+      
+       
+    </div>
+     <div class="md:w-1/2">
+      <img src="images/car(1).png" alt="Car" class=" w-full max-w-md  md:mx-0 " />
+    </div>
+   </div>
+</section>
+
+
 </body>
 </html>
